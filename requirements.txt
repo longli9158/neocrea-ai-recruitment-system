@@ -1,0 +1,51 @@
+# AI採用システム用の依存パッケージ
+
+# 基本パッケージ
+numpy==1.24.3
+pandas==2.0.1
+scipy==1.10.1
+scikit-learn==1.2.2
+
+# 深層学習フレームワーク
+tensorflow==2.12.0
+torch==2.0.1
+transformers==4.29.0
+
+# 可視化
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# 自然言語処理
+nltk==3.8.1
+spacy==3.5.2
+gensim==4.3.1
+
+# 機械学習
+xgboost==1.7.5
+lightgbm==3.3.5
+catboost==1.2
+
+# モデル保存と読み込み
+joblib==1.2.0
+h5py==3.8.0
+
+# データ処理
+tqdm==4.65.0
+pyarrow==12.0.0
+openpyxl==3.1.2
+
+# Jupyter環境
+jupyterlab==3.6.3
+ipywidgets==8.0.6
+
+# AWS連携
+boto3==1.26.135
+sagemaker==2.167.0
+
+# テスト
+pytest==7.3.1
+
+# その他
+requests==2.30.0
+python-dotenv==1.0.0 
